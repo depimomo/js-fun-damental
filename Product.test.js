@@ -9,19 +9,20 @@ describe('Product', () => {
       expect(product.price).toEqual(expectedPrice);
     });
   });
-  
+
   describe('#name', () => {
     it('should return name', () => {
-      const product = new Product(1000, "bando");
-      const expectedName = "bando";
+      const product = new Product(1000, 'bando');
+      const expectedName = 'bando';
 
       expect(product.name).toEqual(expectedName);
     });
   });
+  
   describe('#description', () => {
     it('should return description', () => {
-      const product = new Product(1000, "bando","Lorem ipsum");
-      const expectedDesc = "Lorem ipsum";
+      const product = new Product(1000, 'bando', 'Lorem ipsum');
+      const expectedDesc = 'Lorem ipsum';
 
       expect(product.desc).toEqual(expectedDesc);
     });
