@@ -7,7 +7,9 @@ describe('Product', () => {
       const product = new Product(1000);
       const expectedPrice = 1000;
 
-      expect(product.price).toEqual(expectedPrice);
+      const actualPrice = product.price;
+
+      expect(actualPrice).toEqual(expectedPrice);
     });
   });
 
@@ -16,7 +18,9 @@ describe('Product', () => {
       const product = new Product(1000, 'bando');
       const expectedName = 'bando';
 
-      expect(product.name).toEqual(expectedName);
+      const actualName = product.name;
+
+      expect(actualName).toEqual(expectedName);
     });
   });
 
@@ -25,7 +29,9 @@ describe('Product', () => {
       const product = new Product(1000, 'bando', 'Lorem ipsum');
       const expectedDesc = 'Lorem ipsum';
 
-      expect(product.desc).toEqual(expectedDesc);
+      const actualDesc = product.desc;
+
+      expect(actualDesc).toEqual(expectedDesc);
     });
   });
 
@@ -34,7 +40,9 @@ describe('Product', () => {
       const product = new Product(1000, 'bando', 'Lorem ipsum', categoryType.BOOK);
       const expectedCategory = categoryType.BOOK;
 
-      expect(product.category).toEqual(expectedCategory);
+      const actualCategory = product.category;
+
+      expect(actualCategory).toEqual(expectedCategory);
     });
   });
 });
