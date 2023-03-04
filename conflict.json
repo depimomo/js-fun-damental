@@ -4,6 +4,12 @@
         "phone": "08654323456",
         "address": "susana"
     },
+        
+    {
+        "name": "Budi",
+        "phone": "08652623456",
+        "address": "susana"
+    },
     {
         "name": "monde",
         "phone": "08654323467",
@@ -13,5 +19,13 @@
         "name": "boni",
         "phone": "08537467334",
         "address": "anana"
+    },
+
+    {
+        "name": "Vanny",
+        "phone": "08537467394",
+        "address": "Kakaka"
     }
+
+
 ]
