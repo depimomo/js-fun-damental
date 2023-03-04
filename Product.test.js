@@ -18,4 +18,12 @@ describe('Product', () => {
       expect(product.name).toEqual(expectedName);
     });
   });
+  describe('#description', () => {
+    it('should return description', () => {
+      const product = new Product(1000, "bando","Lorem ipsum");
+      const expectedDesc = "Lorem ipsum";
+
+      expect(product.desc).toEqual(expectedDesc);
+    });
+  });
 });
